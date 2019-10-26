@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "f7f1b234-3e6f-4739-997c-014367022202",
+		"name": "04-CursoMongoDB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:7100/hello-world",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:7100/hello-world",
+					"host": [
+						"localhost"
+					],
+					"port": "7100",
+					"path": [
+						"hello-world"
+					]
+				},
+				"description": "Consulta 1"
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7100/hello-world?name=Successful+Dropwizard+User",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7100",
+					"path": [
+						"hello-world"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Successful+Dropwizard+User"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7100/people",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7100",
+					"path": [
+						"people"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta 4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7100/people/gender/male",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7100",
+					"path": [
+						"people",
+						"gender",
+						"male"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta 5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7100/people/name/Yenko",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7100",
+					"path": [
+						"people",
+						"name",
+						"Yenko"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta 5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7100/people/name/Yenko",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7100",
+					"path": [
+						"people",
+						"name",
+						"Yenko"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
